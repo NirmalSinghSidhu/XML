@@ -1,0 +1,11 @@
+bookstore{
+    background-color: rgb(180, 152, 242);
+    width: 100%;
+}
+title{
+    color: rgb(122, 32, 14);
+    font-size: 22pt;
+}
+author,year,title,price{
+    display: block;
+}

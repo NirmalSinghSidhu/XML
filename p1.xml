@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="new1.css"?>
+<!DOCTYPE bookstore
+[
+<!ELEMENT bookstore (book)>
+<!ELEMENT book (title,author,year,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+<book category="cooking">
+<title lang="en">Everyday Italian</title>
+<author>Giada De Laurebtis</author>
+<year>2005</year>
+<price>30.00</price>
+</book>
+<book category="Children">
+<title lang="en">Harry Potter</title>
+<author>J K. Rowling</author>
+<year>2005</year>
+<price>29.99</price>
+</book>
+<book category="web">
+<title lang="en">Learning Xml</title>
+<author>Erik T. Ray</author>
+<year>2003</year>
+<price>39.95</price>
+</book>
+</bookstore>
